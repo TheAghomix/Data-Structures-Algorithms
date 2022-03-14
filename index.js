@@ -1,5 +1,5 @@
 import  maxSubArray  from "./maxSubArray.js";
-
+import containsDuplicate from './containsDuplicate.js'
 // const maxSubArray = (arr) => {
 //     let currSum =  0;
 //     let maxSum = 0
@@ -10,5 +10,5 @@ import  maxSubArray  from "./maxSubArray.js";
 //     }
 //     return maxSum;
 // }
-let arr = [-2, 2, -3, 4, -1, 2, 1 , -5, 4]
-console.log(maxSubArray(arr))
+let arr = [1,2,3,1]
+console.log(containsDuplicate(arr))
