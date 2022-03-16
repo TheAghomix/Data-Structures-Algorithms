@@ -5,7 +5,7 @@
 
 const containsDuplicate = (arr) => {
     const arrData = {};
-    // arr.sort((a,b) => {return b - a})
+    arr.sort((a,b) => {return b - a})
    
     
     for(let i = 0; i < arr.length; i++){
